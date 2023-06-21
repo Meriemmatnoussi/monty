@@ -20,3 +20,7 @@ void free_s(stack_t *stack);
 void process_f(const char *filename, stack_t **stack);
 void pop_s(stack_t **stack);
 void swap_swap(stack_t **stack);
+void add_s(stack_t **stack);
+void nop_g(stack_t **stack);
+
+#endif /* MONTY_H */
