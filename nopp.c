@@ -1,9 +1,16 @@
 #include "monty.h"
+
 /**
-* nop - Does nothing.
-* @stack: Pointer to the top
-*/
-void nop_g(stack_t **stack)
+ * nop - doesn’t do anything
+ *
+ * @stack: Double pointer to the stack
+ * @line_number: Line number of the command in the source file
+ *
+ * Return: Nothing
+ */
+
+void nop(stack_t **stack, unsigned int line_number)
 {
-(void)stack;
+	(void) line_number;
+	(void) stack;
 }
